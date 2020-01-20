@@ -371,6 +371,9 @@ ul {
     .intro-img {
         display: none;
     }
+    .services-header-img {
+        width: 100%;
+    }
     .intro {
         padding: 8%;
         border-bottom: 2px solid black;
@@ -414,6 +417,22 @@ ul {
     .top div {
         width: 100%;
         padding: 5%;
+    }
+    .two {
+        flex-direction: column;
+    }
+    .two div {
+        width: 90%;
+    }
+    .services-info-img {
+        display: none;
+    }
+    .three div {
+        width: 90%;
+    }
+    .learn-more:hover {
+        border: 5px dotted darkorange;
+        background-color: ghostwhite;
     }
     .bottom {
         width: 90%;
